@@ -34,7 +34,6 @@ brew "zsh"
 # Z3
 brew "z3"
 
-cask "1password6"
 cask "adobe-acrobat-reader"
 cask "docker"
 cask "firefox"
