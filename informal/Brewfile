@@ -1,4 +1,6 @@
 tap "homebrew/cask"
 
+brew "direnv"
+
 cask "1password"
 cask "intellij-idea-ce"
