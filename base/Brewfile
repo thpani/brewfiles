@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+
+# GNU utils
+brew "coreutils"
+brew "gnu-sed"
+brew "watch"
+
+# better (fuzzy) find
+brew "fd"
+brew "fzf"
+
+# better grep
+brew "grep"
+brew "ripgrep"
+
+# Git
+brew "git"
+
+# OCaml
+brew "ocaml"
+brew "opam"
+
+# Scala
+brew "sbt"
+brew "scala"
+
+# Python
+brew "yapf"
+
+# Shell
+brew "zsh"
+
+# Z3
+brew "z3"
+
+cask "1password6"
+cask "adobe-acrobat-reader"
+cask "docker"
+cask "firefox"
+cask "google-chrome"
+cask "iterm2"
+cask "karabiner-elements"
+cask "macvim"
+cask "notion"
+cask "pine"
+cask "skim"
+cask "slack"
+cask "sourcetree"
+cask "spectacle"
+cask "spotify"
+cask "ticktick"
+cask "whatsapp"
