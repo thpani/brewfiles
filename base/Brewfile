@@ -21,10 +21,6 @@ brew "git"
 brew "ocaml"
 brew "opam"
 
-# Scala
-brew "sbt"
-brew "scala"
-
 # Python
 brew "yapf"
 

@@ -2,5 +2,15 @@ tap "homebrew/cask"
 
 brew "direnv"
 
-cask "1password"
+# Java
+cask "openjdk"
+
+# Scala
+brew "sbt"
+brew "scala"
+
+# IDE
 cask "intellij-idea-ce"
+
+# Tools
+cask "1password"
