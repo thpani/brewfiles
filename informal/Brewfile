@@ -12,5 +12,8 @@ brew "scala"
 # IDE
 cask "intellij-idea-ce"
 
+# SMT
+brew "z3"
+
 # Tools
 cask "1password"
