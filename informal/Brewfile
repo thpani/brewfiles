@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 
 brew "direnv"
+brew "mdbook"
 
 # Java
 cask "openjdk"
