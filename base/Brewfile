@@ -31,6 +31,7 @@ brew "zsh"
 brew "z3"
 
 cask "adobe-acrobat-reader"
+cask "bettertouchtool"
 cask "docker"
 cask "firefox"
 cask "google-chrome"
