@@ -1,7 +1,5 @@
 tap "homebrew/cask"
-tap "homebrew/cask-versions"
 
-cask "1password6"
 cask "arq"
 cask "calibre"
 cask "cryptomator"
