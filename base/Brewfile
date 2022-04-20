@@ -41,8 +41,9 @@ cask "google-chrome"
 cask "hammerspoon"
 cask "karabiner-elements"
 cask "kitty"
-cask "logitech-options"
-cask "logitech-unifying"
+cask "logitech-g-hub"    # mouse
+cask "logitech-options"  # keyboards MX Keys + K380
+cask "logitech-unifying" # unifying receiver
 cask "macvim"
 cask "notion"
 cask "pine"
