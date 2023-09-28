@@ -11,47 +11,94 @@ brew "watch"
 brew "fd"
 brew "fzf"
 
-# better grep
+# better awk + grep
+brew "gawk"
 brew "grep"
 brew "ripgrep"
+
+# better diff
+brew "colordiff"
+
+# Network
+brew "sshuttle"
+brew "telnet"
+
+# Images
+brew "imagemagick"
+
+# JQ
+brew "jq"
+
+# Parallel tools
+brew "parallel"
+brew "hyperfine"
 
 # Git
 brew "git"
 brew "git-gui"
+brew "git-svn"
+brew "gist"
+brew "github"
 
 # OCaml
 brew "ocaml"
 brew "opam"
 
 # Python
+brew "poetry"
 brew "yapf"
 
 # Shell
 brew "zsh"
 
-# Z3
-brew "z3"
+# Fonts
+cask "font-fira-code-nerd-font"
+cask "font-fontawesome"
 
+# Apps
 cask "1password"
-cask "adobe-acrobat-reader"
 cask "bettertouchtool"
 cask "docker"
-cask "firefox"
-cask "google-chrome"
+cask "google-drive"
 cask "hammerspoon"
 cask "karabiner-elements"
+cask "keepingyouawake"
+cask "keyboardcleantool"
 cask "kitty"
 cask "logitech-g-hub"    # mouse
 cask "logitech-options"  # keyboards MX Keys + K380
 cask "logitech-unifying" # unifying receiver
-cask "macvim"
-cask "notion"
-cask "pine"
 cask "rectangle"
-cask "skim"
-cask "slack"
-cask "sourcetree"
 cask "spotify"
 cask "ticktick"
+cask "transmit"
+
+# Browsers
+cask "firefox"
+# cask "google-chrome"
+
+# Editors
+cask "macvim"
+cask "visual-studio-code"
+
+# Record GIFs
+cask "licecap"
+
+# Comms
+cask "signal"
+cask "telegram"
 cask "whatsapp"
 cask "zoom"
+
+# VSCode
+vscode "alygin.vscode-tlaplus"
+vscode "esbenp.prettier-vscode"
+vscode "GitHub.vscode-pull-request-github"
+vscode "golang.go"
+vscode "hashicorp.terraform"
+vscode "informal.itf-trace-viewer"
+vscode "informal.quint-vscode"
+vscode "rust-lang.rust-analyzer"
+vscode "scala-lang.scala"
+vscode "scalameta.metals"
+vscode "vscodevim.vim"

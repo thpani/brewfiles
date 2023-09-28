@@ -3,6 +3,12 @@ tap "homebrew/cask"
 brew "direnv"
 brew "mdbook"
 
+# NodeJS
+brew "node"
+
+# Go
+brew "go"
+
 # Java
 brew "openjdk"
 
@@ -10,8 +16,19 @@ brew "openjdk"
 brew "sbt"
 brew "scala"
 
+# Rust
+brew "rust"
+
 # IDE
 cask "intellij-idea-ce"
 
 # SMT
 brew "z3"
+
+# AWS
+brew "awscli"
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
+
+# Comms
+cask "slack"
