@@ -1,34 +1,52 @@
 tap "homebrew/cask"
 
-brew "direnv"
-brew "mdbook"
+# Tools
+brew "cloc"
+# brew "direnv"
+# brew "mdbook"
+
+# Docker
+cask "docker"
 
 # NodeJS
-brew "node"
+# brew "node"
 
 # Go
-brew "go"
-
-# Java
-brew "openjdk"
-
-# Scala
-brew "sbt"
-brew "scala"
+# brew "go"
 
 # Rust
-brew "rust"
+# brew "rust"
 
-# IDE
-cask "intellij-idea-ce"
+# Java / Scala
+# cask "intellij-idea-ce"
+# cask "openjdk"
+# brew "sbt"
+# brew "scala"
 
-# SMT
-brew "z3"
+# OCaml
+# brew "ocaml"
+# brew "opam"
+
+# Python
+# brew "yapf"
 
 # AWS
-brew "awscli"
-tap "hashicorp/tap"
-brew "hashicorp/tap/terraform"
+# brew "awscli"
+# tap "hashicorp/tap"
+# brew "hashicorp/tap/terraform"
 
-# Comms
-cask "slack"
+# SMT
+# brew "z3"
+
+# SQL
+# cask "sequel-pro"
+
+# VSCode
+cask "visual-studio-code"
+
+vscode "bierner.github-markdown-preview"
+vscode "juanblanco.solidity"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "tintinweb.vscode-inline-bookmarks"
+vscode "vscodevim.vim"

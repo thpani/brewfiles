@@ -1,104 +1,114 @@
-tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers" # for logitech-*
 
-# GNU utils
-brew "coreutils"
-brew "gnu-sed"
-brew "watch"
-
-# better (fuzzy) find
-brew "fd"
-brew "fzf"
-
-# better awk + grep
-brew "gawk"
-brew "grep"
-brew "ripgrep"
-
-# better diff
-brew "colordiff"
-
-# Network
-brew "sshuttle"
-brew "telnet"
-
-# Images
-brew "imagemagick"
-
-# JQ
-brew "jq"
-
-# Parallel tools
-brew "parallel"
-brew "hyperfine"
-
-# Git
-brew "git"
-brew "git-gui"
-brew "git-svn"
-brew "gist"
-brew "github"
-
-# OCaml
-brew "ocaml"
-brew "opam"
-
-# Python
-brew "poetry"
-brew "yapf"
+#################
+# CLI           #
+#################
 
 # Shell
 brew "zsh"
 
-# Fonts
-cask "font-fira-code-nerd-font"
-cask "font-fontawesome"
+# GNU utils
+brew "colordiff"
+brew "coreutils"
+brew "gawk"
+brew "gnu-sed"
+brew "grep"
+brew "watch"
+brew "wget"
 
-# Apps
-cask "1password"
-cask "bettertouchtool"
-cask "docker"
-cask "google-drive"
-cask "hammerspoon"
-cask "karabiner-elements"
+# Parallel tools
+# brew "parallel"
+# brew "hyperfine"
+
+
+# "better" GNU utils
+brew "bat"
+brew "fd"
+brew "fzf"
+brew "git-delta"
+brew "ripgrep"
+
+# jq
+brew "jq"
+brew "gojq"
+
+# Git
+brew "git"
+brew "git-gui"
+
+# Graphics
+brew "graphviz"
+brew "imagemagick"
+
+#################
+# D E S K T O P #
+#################
+
+# Fonts
+cask "font-fontawesome"
+cask "font-fira-code-nerd-font"
+
+# Accessibility hacks
+# cask "bettertouchtool"
+# cask "hammerspoon"
+# cask "karabiner-elements"
+# cask "rectangle"
 cask "keepingyouawake"
 cask "keyboardcleantool"
+
+# Logitech
+# tap "homebrew/cask-drivers" # for logitech-*
+# cask "logitech-g-hub"    # mouse
+# cask "logitech-options"  # keyboards MX Keys + K380
+# cask "logitech-unifying" # unifying receiver
+
+# Browser
+cask "firefox"
+cask "google-chrome"
+
+# Terminal
 cask "kitty"
-cask "logitech-g-hub"    # mouse
-cask "logitech-options"  # keyboards MX Keys + K380
-cask "logitech-unifying" # unifying receiver
-cask "rectangle"
-cask "spotify"
-cask "ticktick"
+
+# Editors / Office
+cask "adobe-acrobat-reader"
+cask "macvim"
+cask "mark-text"
+cask "notion"
+cask "simple-comic"
+
+# Productivity
+# cask "ticktick"
+
+# Internet
+# cask "dropbox"
+cask "google-drive"
+cask "mullvadvpn"
 cask "transmit"
 
-# Browsers
-cask "firefox"
-# cask "google-chrome"
+# Music
+cask "spotify"
 
 # Editors
 cask "macvim"
 cask "visual-studio-code"
 
 # Record GIFs
-cask "licecap"
+# cask "licecap"
 
-# Comms
+# Messenger
+cask "discord"
 cask "signal"
-cask "telegram"
+cask "telegram-desktop"
 cask "whatsapp"
-cask "zoom"
+# cask "skype"
+# cask "slack"
+# cask "zoom"
 
-# VSCode
-vscode "alygin.vscode-tlaplus"
-vscode "esbenp.prettier-vscode"
-vscode "GitHub.vscode-pull-request-github"
-vscode "golang.go"
-vscode "hashicorp.terraform"
-vscode "informal.itf-trace-viewer"
-vscode "informal.quint-vscode"
-vscode "rust-lang.rust-analyzer"
-vscode "scala-lang.scala"
-vscode "scalameta.metals"
-vscode "vscodevim.vim"
+# Password / Security
+cask "1password"
+cask "ledger-live"
+# cask "cryptomator"
+
+# Backup / Disk utils
+# cask "arq"
+# cask "daisydisk"
