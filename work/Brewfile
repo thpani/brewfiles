@@ -1,5 +1,3 @@
-tap "homebrew/cask"
-
 # Tools
 brew "cloc"
 # brew "direnv"
