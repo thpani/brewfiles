@@ -76,7 +76,7 @@ cask "notion"
 cask "simple-comic"
 
 # Productivity
-# cask "ticktick"
+cask "ticktick"
 
 # Internet
 # cask "dropbox"
