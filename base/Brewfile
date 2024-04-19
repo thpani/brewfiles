@@ -49,11 +49,11 @@ cask "font-fira-code-nerd-font"
 
 # Accessibility hacks
 # cask "bettertouchtool"
-# cask "hammerspoon"
-# cask "karabiner-elements"
-# cask "rectangle"
+cask "hammerspoon"
 cask "keepingyouawake"
 cask "keyboardcleantool"
+# cask "karabiner-elements"
+cask "rectangle"
 
 # Logitech
 # tap "homebrew/cask-drivers" # for logitech-*
