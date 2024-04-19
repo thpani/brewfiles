@@ -38,6 +38,9 @@ brew "git-gui"
 brew "graphviz"
 brew "imagemagick"
 
+# Latex
+cask "mactex"
+
 #################
 # D E S K T O P #
 #################
