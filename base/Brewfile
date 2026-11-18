@@ -18,12 +18,11 @@ brew "wget"
 # brew "parallel"
 # brew "hyperfine"
 
-
 # "better" GNU utils
-brew "bat"
 brew "fd"
 brew "fzf"
 brew "git-delta"
+brew "htop"
 brew "ripgrep"
 
 # jq
@@ -33,23 +32,34 @@ brew "gojq"
 # Git
 brew "git"
 brew "git-gui"
+brew "gh"
 
 # Graphics
 brew "graphviz"
 brew "imagemagick"
 
-# Latex
-cask "mactex"
+# Document processors
+# cask "mactex"
+cask "skim"
+cask "typst"
+
+# Markdown
+brew "cmark-gfm"
 
 #################
 # D E S K T O P #
 #################
 
 # Fonts
-tap "homebrew/cask-fonts"
-cask "font-fontawesome"
 cask "font-fira-code"
-cask "font-symbols-only-nerd-font"
+cask "font-fira-sans"
+cask "font-fontawesome"
+cask "font-ibm-plex-mono"
+cask "font-ibm-plex-sans"
+cask "font-ibm-plex-serif"
+cask "font-inter"
+cask "font-sf-mono"
+cask "font-sf-pro"
 
 # Accessibility hacks
 # cask "bettertouchtool"
@@ -59,32 +69,26 @@ cask "keyboardcleantool"
 # cask "karabiner-elements"
 cask "rectangle"
 
-# Logitech
-# tap "homebrew/cask-drivers" # for logitech-*
-# cask "logitech-g-hub"    # mouse
-# cask "logitech-options"  # keyboards MX Keys + K380
-# cask "logitech-unifying" # unifying receiver
-
 # Browser
-cask "firefox"
-cask "google-chrome"
+cask "waterfox"
+cask "ungoogled-chromium"
+# cask "firefox"
+# cask "google-chrome"
 
 # Terminal
-cask "kitty"
+cask "ghostty"
 
 # Editors / Office
-cask "adobe-acrobat-reader"
-cask "macvim"
-cask "mark-text"
-cask "notion"
-cask "simple-comic"
+# cask "adobe-acrobat-reader"
+# cask "notion"
+# cask "simple-comic"
 
 # Productivity
 cask "ticktick"
 
 # Internet
 # cask "dropbox"
-cask "google-drive"
+# cask "google-drive"
 cask "mullvadvpn"
 cask "transmit"
 
@@ -94,24 +98,24 @@ cask "spotify"
 # Editors
 cask "macvim"
 cask "visual-studio-code"
+cask "zed"
 
 # Record GIFs
 # cask "licecap"
 
 # Messenger
-cask "discord"
-cask "signal"
-cask "telegram-desktop"
-cask "whatsapp"
+# cask "discord"
+# cask "signal"
+# cask "telegram-desktop"
+# cask "whatsapp"
 # cask "skype"
 # cask "slack"
 # cask "zoom"
 
 # Password / Security
 cask "1password"
-cask "ledger-live"
+# cask "ledger-live"
 # cask "cryptomator"
 
-# Backup / Disk utils
-# cask "arq"
-# cask "daisydisk"
+# Games
+brew "nethack"

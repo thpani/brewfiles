@@ -1,7 +1,7 @@
 # Tools
 brew "cloc"
-# brew "direnv"
-# brew "mdbook"
+brew "scc"
+brew "tokei"
 
 # Docker
 cask "docker"
@@ -25,26 +25,12 @@ cask "docker"
 # brew "ocaml"
 # brew "opam"
 
-# Python
-# brew "yapf"
-
-# AWS
-# brew "awscli"
-# tap "hashicorp/tap"
-# brew "hashicorp/tap/terraform"
-
 # SMT
 # brew "z3"
 
-# SQL
-# cask "sequel-pro"
+# Comms
+cask "mattermost"
+cask "zulip"
 
-# VSCode
-cask "visual-studio-code"
-
-vscode "bierner.github-markdown-preview"
-vscode "juanblanco.solidity"
-vscode "ms-azuretools.vscode-docker"
-vscode "ms-vscode-remote.remote-containers"
-vscode "tintinweb.vscode-inline-bookmarks"
-vscode "vscodevim.vim"
+# LLMs
+brew "pi-coding-agent"
